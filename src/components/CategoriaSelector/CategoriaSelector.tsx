@@ -15,7 +15,7 @@ const CategoriaSelector: React.FC<CategoriasSelectorProps> = ({ onSelectedCatego
   return (
     <section className='container mt-3' id='selector-categorias'>
 
-      <p className='fs-3'>Selecione una categoria</p>
+      <p className='fs-3'>Seleccione una categoria</p>
       <div className='row gap-4'>
         {categorias.map((categoria, index) => (
           <div className='col d-flex justify-content-center p-0' key={index}>
